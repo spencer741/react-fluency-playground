@@ -8,9 +8,9 @@ import * as serviceWorker from './serviceWorker'; //Allows for js to be executed
 //This file is the entry point for the react app.
 //As you can see, we render whatever components we have built here.
 
-//ReactDOM.render(<App name="Spencer"/>, document.getElementById('root')); //render app under root.
+ReactDOM.render(<App name="Spencer"/>, document.getElementById('root')); //render app under root.
 
-ReactDOM.render(<FormCard />, document.getElementById('root')); //render app under root.
+//ReactDOM.render(<FormCard name='Spencer' />, document.getElementById('root')); //render app under root.
 
 
 
