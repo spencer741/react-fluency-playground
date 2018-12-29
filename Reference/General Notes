@@ -1,0 +1,3 @@
+This project uses react-create-app, which is responsible for transpiling code... It is not using babel like normal app would.
+Remember for Reactjs.NET, it uses babel and it transpiles all code. All componenets end up being global on the client, so you 
+can have multiple components store and an entry point with rendering code.
