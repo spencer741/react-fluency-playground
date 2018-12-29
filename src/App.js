@@ -8,6 +8,7 @@ import './LoginPage.css';
 
 class LoginComponent extends Component {
   render() {
+    //Js gets placed under the render.
     return (
      
         <div className="loginContainer">
