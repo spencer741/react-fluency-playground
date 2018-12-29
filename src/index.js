@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App'; //importing our componenets here.
-import FormCard from './App';
+
+import LoginComponent from './App';
+
+//import App from './App'; //importing our componenets here.
+
 import * as serviceWorker from './serviceWorker'; //Allows for js to be executed in the background.
 
 //This file is the entry point for the react app.
 //As you can see, we render whatever components we have built here.
 
-ReactDOM.render(<App name="Spencer"/>, document.getElementById('root')); //render app under root.
+ReactDOM.render(<LoginComponent message="Spencer"/>, document.getElementById('root')); //render app under root.
 
 //ReactDOM.render(<FormCard name='Spencer' />, document.getElementById('root')); //render app under root.
 
