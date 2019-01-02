@@ -1,3 +1,22 @@
 This project uses react-create-app, which is responsible for transpiling code... It is not using babel like normal app would.
 Remember for Reactjs.NET, it uses babel and it transpiles all code. All componenets end up being global on the client, so you 
 can have multiple components store and an entry point with rendering code.
+
+WEBPACK NOTES:
+Before installing webpack to an asp.net core application in visual studio, make sure to add the package.json file to the root
+of the project you are installing it for... Before you navigate to your project folder to execute the install command 
+(I did this in powershell).
+If you right-click your project, click add and type in the search bar 'json', you can scroll down and find the 'npm Configuration File' 
+Template file, it will add package.json. After executing npm install --save-dev webpack, it will update package.json (which apparently
+keeps track of your node module dependecies).
+Descript this ->
+My package.json is this after executing:
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^4.28.3"
+  }
+Webpack concepts to know:
+https://webpack.js.org/concepts/
