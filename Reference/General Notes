@@ -9,10 +9,10 @@ of the project you are installing it for... Before you navigate to your project 
 If you right-click your project, click add and type in the search bar 'json', you can scroll down and find the 'npm Configuration File' 
 Template file, it will add package.json. After executing npm install --save-dev webpack, it will update package.json (which apparently
 keeps track of your node module dependecies).
-Descript this ->
+
 My package.json is this after executing:
 {
-  "version": "1.0.0",
+  "version": "1.0.0", This is the package version of your application, not the target framework version
   "name": "asp.net",
   "private": true,
   "devDependencies": {
