@@ -16,8 +16,10 @@ class LoginComponent extends Component {
               <form>
                   <input id="username" type="text" placeholder="username" />
                   <a id ="smalllink" href="url">Forgot Username?</a>
+                  <label className="InputLabel">{this.props.usermessage}</label>
                   <input id="password" type="password" placeholder="password" />
                   <a id="smalllink" href="url">Forgot Password?</a>
+                  <label className="InputLabel">{this.props.passmessage}</label>
                   <button id ="login-btn" type="button">login</button>
                   <label>{this.props.message}</label>
               </form>

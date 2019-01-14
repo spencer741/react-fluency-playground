@@ -97,7 +97,7 @@ a {
 a:link {
     
     float:left;
-position: relative;
+    position: relative;
     font-size: 10px;
     text-decoration: none;
     width: 85px;
@@ -107,4 +107,13 @@ position: relative;
 }
 a:hover {
     color: #43A047;
+}
+.InputLabel{
+
+    float:left;
+    position: relative;
+    font-size: 10px;
+    text-decoration: none;
+    width: 85px;
+    height:15px;
 }
